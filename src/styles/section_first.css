@@ -1,0 +1,378 @@
+
+/*-------@@@@@------------------------section_1-------------@@@@@@-------------*/
+
+.Section_1
+{
+ /* border: 3px solid black;*/
+  height: 30%;
+  border: 0.1px solid white;
+}
+.IMG_1
+{
+  border: 0.10px solid white;
+  height: 500px;
+}
+.Section_1 h1
+{
+  margin-top: 100px;
+  margin-left: 70px;
+  font-size:clamp(30px,300px,40px);
+  text-shadow:2px 3px rgba(0, 0,0, 0.25);
+  font-family: 'Rubik', sans-serif;
+}
+#Section_1_id
+{
+  width:clamp(400px,40%,40%);
+}
+.Section_1 button
+{
+  margin-left:70px;
+  margin-top: 5px;
+  padding: 5.6px;
+  width:clamp(100px,10%,10%);
+  border-radius: 3px;
+  background-color: #944cc4;
+  border: 1px solid #944cc4;
+  color: white;
+  font: 'Rubik', sans-serif;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  
+}
+
+@media screen and (max-width:360px)
+{
+ 
+  #Section_1_id h1
+  {
+    margin-left: 45px;
+    margin-top: 95px;
+    font-size: 30px;
+  }
+  #Section_1_id button
+  {
+    margin-left: 11%;
+  }
+
+}
+
+/*-----------@@@@@-------------------section_2-------------@@@@@--------------------*/
+
+
+
+.Sectinon_2_videos
+{
+ /* border: 4px solid black;*/
+  height: 500px;
+  background-color:  rgb(241, 230, 218);
+  
+}
+.Sectinon_2_videos_1
+{
+ /* border: 4px solid black;*/
+  height: 350px;
+  width:auto;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color:  rgb(241, 230, 218);
+  
+}
+.Videos
+{
+  /*border:2px solid green;*/
+  text-align: center;
+  font-size: 20px;
+  padding: 30px;
+  font-family: 'Oswald', sans-serif;
+  background-color: rgb(241, 230, 218);
+}
+.Sectinon_2_button
+{
+ background-color:  rgb(241, 230, 218);
+ padding: 15px;
+ padding-left: 600px;
+ text-emphasis: center;
+ padding-top: 0;
+ margin: 0;
+}
+#Video_btn
+{
+  display: inline-table;
+  padding-bottom: 30px;
+  padding: 3px;
+  margin-left:auto;
+  width: 150px;
+  height: 40px;
+  font-family:'Oswald', sans-serif;
+  font: bold;
+  border-radius: 30px;
+  background-color: #944cc4;
+  border:1px solid #944cc4;
+  color: white;
+  
+}
+@media screen and (max-width:360px)
+{
+  .Videos h3
+  {
+   margin-left: 70px;
+   width:100px;
+  }
+  .Sectinon_2_videos
+  {
+    display: inline;
+    height: 800px;
+    background-color:  rgb(241, 230, 218);
+  }
+  #Video_btn
+  {
+    margin-left: 30px;
+  }
+  .Sectinon_2_button
+  {
+    padding-left:40px;
+    padding-top: 10px;
+  }
+  .Sectinon_2_videos_1
+  {
+    height:auto;
+    display: inline;
+  }
+
+}
+
+
+/*-----------@@@@@-------------------section_3-------------@@@@@--------------------*/
+
+
+.Section_3
+{
+ /* border:  3px solid brown;*/
+  height: 500px;
+  padding-top: 20px;
+  width: auto;
+  display:flex;
+  justify-content: center;
+  padding-top: 90px;
+
+}
+.Section_3_div
+{
+  height: auto;
+  width: 500px;
+ /* border: 3px solid black;*/
+  border-radius: 20px;
+}
+.Section_3_div img
+{
+  height: 400px;
+  width: 500px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.Section_3_div_1
+{
+  height: auto;
+  width: 500px;
+  /*border: 3px solid black;*/
+}
+.Section_3_div_1 h1
+{
+  margin-top: 100px;
+  margin-left:30px;
+  font-size:clamp(30px,300px,50px);
+  text-shadow:2px 3px rgba(0, 0,0, 0.25);
+  font-family: 'Rubik', sans-serif;
+}
+.Section_3_div_1 h3
+{
+  margin-left:30px;
+  display: inline-table;
+  padding-bottom: 30px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  color: rgb(121, 120, 120);
+}
+.Section_3_div_1 button
+{
+  
+  margin-left:30px;
+  padding: 5.6px;
+  width:100px;
+  border-radius: 3px;
+  background-color: #944cc4;
+  border: 1px solid #944cc4;
+  color: white;
+  font: 'Rubik', sans-serif;
+  text-align: center;
+  outline: none;
+  
+}
+@media screen and (max-width:360px)
+{
+ 
+  .Section_3_div
+ {
+   height: 300px;
+   width: 270px;
+   margin-left:8px;
+   margin-top: 40px;
+ }
+ .Section_3_div img
+ {
+  height: 300px;
+  width: 270px;
+ }
+ .Section_3_div_1 h1
+ {
+   font-size: 30px;
+   margin-top: 10px;
+   margin-left: 10px;
+ }
+ .Section_3_div_1 h3
+ {
+  margin-left: 10px;
+  font-size: 13px;
+ }
+ .Section_3_div_1 button
+ {
+   margin-left: 90px;
+   margin-bottom: 10px;
+ }
+ .Section_3
+ {
+   display: inline;
+ }
+}
+/*-----------@@@@@-------------------section_4-------------@@@@@--------------------*/
+
+
+.Section_4
+{
+  height: 400px;
+  width: auto;
+ /* border: 3px solid green;*/
+  background-color:rgb(241, 230, 218);
+
+}
+.Section_4_div
+{
+ /* border: 2px solid blue;*/
+  display: flex;
+  padding: 50px;
+  padding-top: 10px;
+  padding-left: 500px;
+  padding-bottom: 10px;
+  font-family: 'Oswald', sans-serif;
+  
+}
+.Section_4_div a
+{
+  text-decoration: none;
+  color: black;
+  padding-left: 400px;
+  font-family: 'Oswald', sans-serif;
+}
+.Educator_div
+{
+height: 300px;
+width: auto;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 20px;
+/*border: 3px solid yellow;*/
+display:flex;
+justify-content: space-around;
+
+}
+@media screen and (max-width:360px)
+{ 
+  .Section_4
+  {
+    height: auto;
+  }
+  .Section_4_div 
+  {
+    margin-left: 10px;
+    height: auto;
+  }
+  .Educator_div
+  {
+   display: inline;
+   height: auto;
+  }
+  .Section_4_educator
+  {
+    height: auto;
+  }
+
+}
+
+
+
+/*-----------@@@@@-------------------section_5-------------@@@@@--------------------*/
+
+
+
+.Section_5
+{
+ /*border: 3px solid green;*/
+  height: 500px;
+}
+.Section_5_div
+{
+  /*border: 3px solid blue;*/
+  margin-top: 80px;
+  margin-left: 100px;
+  border-radius: 50px;
+  height: 400px;
+  width: 80%;
+  box-shadow: 0 0 8px 12px rgba(0, 0,0, 0.25);
+}
+.Section_5_div h1
+{
+  margin-left: 60px;
+  font-size: 50px;
+  margin-top: 50px;
+  padding-top: 30px;
+  font-family: 'Rubik', sans-serif;
+}
+.Section_5_div h3
+{
+  margin-left: 60px;
+  margin-top: 25px;
+  font-family: 'Rubik', sans-serif;
+  color: rgb(121, 120, 120);
+}
+.Section_5_div img
+{
+  margin-left: 60px;
+  height: 50px;
+  margin-top: 25px;
+}
+@media screen and (max-width:360px)
+{
+  .Section_5_div
+  {
+   margin-left: 20px;
+   width: 250px;
+   height: 320px;
+  }
+  .Section_5_div h1
+  {
+    font-size: 30px;
+    margin-left: 22px;
+  }
+  .Section_5_div h3
+  {
+    font-size: 20px;
+    margin-left: 22px;
+  }
+  .Section_5_div img
+  {
+    margin-left: 30px;
+  }
+}
+

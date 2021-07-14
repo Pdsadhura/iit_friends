@@ -1,0 +1,202 @@
+.Cards_A
+{
+  height: 200px;
+  width: 42%;
+  display: inline-block ;
+  text-align: center;
+  position: relative;
+  padding: 10px;
+  padding-top: 30px;
+  background-color: white;
+  margin-top: 40px;
+  margin-left: 60px;
+  border-radius: 10px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  box-shadow:0 0 20px -10px rgba(0, 0,0, 1);
+  /*border: 3px solid blue;*/
+}
+
+.Cards_div
+{ 
+  padding:0px;
+  margin-top: -13%;
+  justify-content:center; 
+  justify-content:space-around;
+  justify-content: space-between;
+ /* border: 3px solid black;*/
+  
+}
+.Learn_cards
+{
+  text-align: center;
+}
+.Help_cards
+{
+  text-align: center;
+  text-decoration: none;
+}
+#helping
+{
+ height:60px;
+ width:60px;
+}
+#learning
+{
+  height:60px;
+  width:60px;
+}
+/*----------------------card nots,doubt session......second-------------------------*/
+.Cards2_A
+{
+  height: 350px;
+  width: 85%;
+  margin: 60px;
+  margin-left: 90px;
+  border-radius: 10px;
+  box-shadow:0 0 20px -10px rgba(0, 0,0, 1);
+}
+.Cards2_info
+{
+  height: 280px;
+  width:clamp(30px,170px,170px);
+  display: inline-flex ;
+  justify-content: center;
+  wrap: wrap;
+  text-align: center;
+  position: relative;
+  border: 2px solid black;
+  padding: 10px;
+  padding-top: 3px;
+  margin-left: 40px;
+  margin-top: 0;
+  border-radius: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+
+ #a
+{
+  background-image: url();
+}
+ #b
+{
+  background-color:white;
+}
+#c
+{
+  background-color:white;
+}
+/*.Cards2_info_1
+{
+  height: 260px;
+  border: 3px solid black;
+  display: inline-block;
+  width: 200px;
+  position: relative;
+  padding-bottom:2px;
+  margin-left: 4px;
+  padding-top: 5px;
+}*/
+
+.Cards2_container
+{
+  /*border: 2px solid black;*/
+  padding-top:30px;
+  height: 300px;
+  width: 65%;
+  display: inline-flex;
+}
+
+
+  .Cards2_container
+  {
+    padding:2px;
+    padding-block-end: 1px;
+    height: 150px;
+  }
+  .Cards2_container_1 
+  {
+    width:auto;
+    display: inline-block;
+  }
+
+.Cards2_container_1
+{
+  /*border: 3px solid black;*/
+  height: 100px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  margin-left: 3px;
+  display:inline-table;
+ /* margin-inline-start: 20px;*/
+ width:350px;
+}
+.Cards2_container_1 h2
+{
+  display: inline-table;
+  padding-bottom: 30px;
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+  
+}
+.Cards2_container_1 h4
+{
+  display: inline-table;
+  padding-bottom: 30px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  color: rgb(150, 144, 144);
+}
+.Cards2_container_1 button
+{
+  display: inline-table;
+  padding-bottom: 30px;
+  padding: 3px;
+  margin-left:auto;
+  width: 150px;
+  height: 40px;
+  font-family: 'Oswald', sans-serif;
+  font: bold;
+  border-radius: 30px;
+  background-color: #944cc4;
+  color: white;
+}
+@media screen and (max-width:360px)
+{
+ 
+  .Cards2_A
+  {
+    margin-left: 15px;
+    height: 50%;
+    width: 260px;
+    text-align: center;
+  }
+  .Cards2_container
+  {
+    display: inline;
+  }
+  .Cards2_container_1
+  {
+   width: 200px;
+  }
+  .Cards2_info
+  {
+    height: 100px;
+    width: 60%;
+    margin: 4px;
+    margin-left: 40px;
+    font-size: 20px;
+    display:block;
+  }
+  .Cards2_container_1 h2
+  {
+    font-size: 15px;
+  }
+  .Cards_A
+  {
+    margin-left: 22px;
+    margin-top: 30px;
+    width: 220px;
+  }
+}

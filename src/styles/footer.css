@@ -1,0 +1,71 @@
+.Footer
+{
+    height: 400px;
+    background-color: #944cc4;
+    display:flex;
+    justify-content: space-between;
+}
+.Footer_left 
+{
+   /* border: 3px solid white;*/
+    height: 400px;
+    width: 300px;
+    margin-left: 50px;
+    text-decoration: none;
+
+}
+#Footer_logo
+{
+    color: white;
+    height: 80px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+.Footer_left li
+{
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+  margin-top: 20px;
+  font-family: 'Rubik', sans-serif;
+  text-decoration: none;
+}
+.Footer_right
+{
+  /*  border: 3px solid black;*/
+    height: 100px;
+    width: 300px;
+    margin-top: 50px;
+    color: white;
+    display:flex;
+    text-decoration: none;
+}
+.Footer_right h3
+{
+    margin:20px; 
+    color: white;
+    text-decoration: none;
+}
+.Footer_email
+{
+   /* border:3px solid white;*/
+    height: 80px;
+    margin-right: 50px;
+    margin-top: 60px;
+    text-align: center;
+}
+.Footer_email button
+{
+    border: 3px solid white;
+    text-align: center;
+    background-color: #944cc4;
+    color: white;
+    padding: 5px;
+    width: 60px;
+    margin-top: 10px;
+}
+.Footer_email  :hover
+{
+    color:#944cc4;
+    background-color: white;
+}

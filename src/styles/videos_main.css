@@ -1,0 +1,25 @@
+
+.Headline
+{
+   border: 3px solid black;
+   
+}
+.Headline 
+{
+ height: 5.0rem;
+ color:black;
+ text-align: center;
+ font-size: 2.0rem;
+ margin-top:5.0rem;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.Main_videos
+{
+   /* border: 3px solid darkgreen;*/
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 4.0rem;
+    padding-bottom: 2.0rem;
+    background-color:rgb(241, 230, 218); 
+}
